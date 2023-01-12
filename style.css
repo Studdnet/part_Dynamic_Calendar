@@ -62,9 +62,13 @@ section {
 	box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, .1);
 }
 
-/* #dycalendar table td:first-child {
+#dycalendar table td:last-child {
 	color: #f44336;
-} */
+}
+
+#dycalendar table tr:last-child td {
+	color: black;
+}
 
 .dycalendar-month-container .dycalendar-target-date {
 	background: #2196f3;
