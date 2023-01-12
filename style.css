@@ -45,7 +45,8 @@ section {
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
 }
 
-#dycalendar table tr:nth-child(1) td:nth-child(1) {
+#dycalendar table tr:nth-child(1) td:nth-child(7),
+#dycalendar table tr:nth-child(1) td:nth-child(6) {
 	background: #f44336;
 }
 
@@ -61,9 +62,9 @@ section {
 	box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, .1);
 }
 
-#dycalendar table td:first-child {
+/* #dycalendar table td:first-child {
 	color: #f44336;
-}
+} */
 
 .dycalendar-month-container .dycalendar-target-date {
 	background: #2196f3;
